@@ -1,0 +1,111 @@
+/* This is the fonts import from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    /* Add Poppins Fonts */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+
+  /* Footer Section */
+
+.footer-logo svg {
+    width: 185px;
+}
+
+.footer-flex {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 3rem 1rem;
+    background:#fff;
+    border-top: 1px solid #29292914;
+}
+
+.footer-right-heading h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.footer-right-links ul li a, .footer-paragraph {
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-paragraph {
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-item {
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.footer-right-links ul li, .footer-right-heading {
+    margin-bottom: 1.3rem;
+}
+
+.footer-social a svg {
+  background: #eaecf0;
+  padding: 0.5rem;
+  border-radius: 7px;
+  transition: all .3s ease-out;
+}
+
+#facebook:hover{
+  fill: #149ff8;
+}
+
+#instagram:hover{
+  fill: #4f5dcb;
+}
+
+#dribbble:hover{
+  fill: #ea4c89;
+}
+
+#linkedin:hover{
+  fill: #0077b5;
+}
+
+#facebook:hover, #instagram:hover, #dribbble:hover, #linkedin:hover{
+  transition: all .3s ease-out;
+}
+
+.sub-footer {
+    text-align: center;
+    background:rgb(255, 255, 255);
+    border-top: 1px solid #29292914;
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
